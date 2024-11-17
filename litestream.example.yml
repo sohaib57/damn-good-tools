@@ -1,0 +1,7 @@
+access-key-id: xxxxxxxxxxxxxxxxxxxx
+secret-access-key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/xxxxxxxxx
+
+dbs:
+    - path: /path/to/local/db
+      replicas:
+          - url: s3://SPACENAME.nyc3.digitaloceanspaces.com/db
